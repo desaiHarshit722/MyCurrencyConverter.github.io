@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    font-size: 16px;
+    padding: 23px;
+    background-color: fuchsia;
+}
+
+nav ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 23px;
+}
+.container{
+    /* background-color: red; */
+    max-width: 80vw;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container h1{
+    text-align: center;
+}
+.container form input[type='number'],select{
+    /* background-color: red; */
+    font-size: 25px;
+    margin-bottom: 23px ;
+    width: 30vw;
+}
+.btn{
+    /* width: 6vw; */
+    padding: 12px;
+    color: white;
+    background-color: darkorchid;
+    border-radius: 14px;
+    border: 2px solid darkblue;
+    cursor: pointer;
+    text-align: center; 
+}
+
+.btn:hover{
+color:darkblue;
+font-weight: bolder;
+
+}
+.container form label{
+   margin: 13px;
+   font-size: 25px;
+   
+}
+.container form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+    
+}
+nav ul li a:hover{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+footer{
+    background-color: bisque;
+    padding: 23px;
+}
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+.output{
+    display: none;
+}
+.output h2{
+    padding:12px ;
+
+}
+.container h1,h2{
+    font-size: 23px;
+}
+.container h1{
+    padding-top:23px ;
+    font-family: 'Ubuntu', sans-serif;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCurrencyConverter - Convert your currency </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposnsive.css">  
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            MyCurrencyConverter
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+         
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Choose a currency</h1>
+        <form method="get">
+            <label  for="quantity">Choose a Quantity: </label>
+            <input type="number" name="quantity" min="1" >
+            <select name="currency">
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">Dollar</option>
+                <option value="EUR">Euro</option></select>
+            </select>
+            <div>
+                <button  class="btn" type="submit">Submit</button>
+            </div>
+                
+           
+         
+        </form>
+        <div class="output">
+            <h2>Here is your converted values in different currencies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>currency</th>
+                        <th>Currency Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+          
+                </tbody>
+            </table>     
+        </div>
+    </div>
+    <footer>
+        copyright &copy; All Rights Reserved
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

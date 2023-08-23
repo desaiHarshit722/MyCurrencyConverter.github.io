@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  @media (max-width: 582px) {
+    body { 
+        font-size: 18px; 
+    }
+    .btn{
+        width: 23vw;
+    }
+
+  }
+  @media (max-width:602px) {
+    nav  {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn{
+        width: 24vw;
+    }
+    .logo{
+        padding: 23px;
+    }
+    .container h1{
+        padding: 23px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container form input[type='number'], select{
+        width: 44vw;
+
+    }
+    .container form label {
+        font-family: 'poppins', sans-serif;       
+    }
+
+  }
